@@ -1,0 +1,187 @@
+body,
+html {
+  left: 0;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a textarea:focus {
+  outline: none;
+}
+.main {
+  border-bottom: 1px solid #4692ce;
+  margin-top: 51px;
+}
+.main .logo {
+  margin-left: -13px;
+}
+.main .logo-project {
+  color: #1f3d73;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: -14px;
+  letter-spacing: 2px;
+  margin-left: 1px;
+}
+.main .logo-sell {
+  display: inline-block;
+  color: #adb0b6;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: -17px;
+  margin-left: -1px;
+  line-height: 1.2;
+}
+.main-block {
+  font-size: 12px;
+  line-height: 0.1;
+  margin-top: 25px;
+}
+.main-block a {
+  color: #4692ce;
+  border-bottom: 1px solid #4692ce;
+}
+.main .main-border {
+  border-right: 0.5px solid grey;
+  height: 40px;
+  margin-right: 15px;
+}
+.main .button_in {
+  background: #4692ce url(../img/main/[btn].png) center no-repeat;
+  width: 323px;
+  height: 45px;
+  border: none;
+  margin-top: 20px;
+}
+.main .basket {
+  background: #4692ce url(../img/main/basket.png) center no-repeat;
+  width: 45px;
+  height: 45px;
+  float: left;
+  border: none;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.main .second-block {
+  margin-top: -20px;
+}
+.main .mail {
+  float: left;
+  margin-right: 10px;
+}
+@media (max-width: 1199px) {
+  .main .button_in {
+    width: 260px;
+  }
+  .main .logo img {
+    width: 100%;
+  }
+  .main .main-border {
+    margin-right: -4px;
+  }
+  .main .basket {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .main .button_in {
+    width: 220px;
+    margin-left: -35px;
+  }
+  .main .second-block {
+    margin-top: -100px;
+    margin-left: 25px;
+  }
+  .main .mail-block {
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: -75px;
+  }
+}
+@media (max-width: 767px) {
+  .main .button_in {
+    margin-left: 10px;
+  }
+  .main .main-border {
+    margin-right: 5px;
+  }
+  .main .offset {
+    margin-top: 20px;
+    margin-left: -45px;
+  }
+  .main .second-block {
+    margin-left: -5px;
+  }
+  .main .mail-block {
+    margin-top: 5px;
+    margin-left: -45px;
+  }
+}
+@media (max-width: 575px) {
+  .main .logo {
+    text-align: center;
+  }
+  .main .logo img {
+    width: 40%;
+  }
+  .main .logo-project {
+    text-align-last: center;
+    margin-left: 160px;
+  }
+  .main .main-block {
+    font-size: 13px;
+    text-align: center;
+  }
+  .main .button_in {
+    width: 200px;
+    height: 60px;
+  }
+  .main .second-block {
+    margin-top: 20px;
+  }
+  .main .offset {
+    margin-left: 5px;
+  }
+  .main .mail-block {
+    margin-left: 85px;
+  }
+}
+@media (max-width: 479px) {
+  .main .button_in {
+    background: #4692ce url(../img/main/sign.png) center no-repeat;
+    width: 75px;
+    height: 45px;
+  }
+  .main .main-block {
+    margin-left: -15px;
+  }
+  .main .basket {
+    margin-left: -15px;
+  }
+  .main .basket-block {
+    text-align: left;
+  }
+  .main .mail-block {
+    font-size: 13px;
+    margin-left: -5px;
+  }
+}
+@media (max-width: 479px) and (max-width: 358px) {
+  .main .mail-block {
+    font-size: 13px;
+    margin-left: -5px;
+  }
+}
