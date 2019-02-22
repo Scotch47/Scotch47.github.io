@@ -1,0 +1,417 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h4 {
+	font-weight: 200;
+	margin-top: 0;
+	letter-spacing: 1px;
+}
+span {
+	font-weight: 900;
+}
+.span {
+	display: block;
+}
+
+h1 {
+	font-size: 45px;
+	text-align: center;
+	margin-top: 230px;
+	color: #ffffff;
+	text-shadow: #000000 3px 4px 7px;
+
+}
+
+
+h2 {
+	font-size: 45px;
+	text-shadow: #000000 3px 4px 7px;
+
+}
+
+h3 {
+	font-size: 42px;
+	font-weight: 900;
+}
+
+h4 {
+	font-size: 40px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 0;
+
+}
+
+a, input, textarea {
+	font-size: 17px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding: 15px 0px;
+	display: block;
+	text-align: center;
+	max-width: 210px;
+	margin-top: 50px;
+}
+
+.grid-item-beige a {
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+button {
+	display: block;
+	background-image: url(../img/menu.svg);
+	width: 33px;
+	height: 33px;
+	background-color: transparent;
+	border: none;
+	margin-bottom: 64px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.grid-item-black a:hover {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.grid-item-beige a:hover {
+	background-color: rgba(174, 174, 174, .5);
+}
+
+.grid-item:not(:first-child):hover {
+	border: 2px solid #ff8208;
+}
+
+
+
+
+.form {
+	max-width: 620px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.form input, .form textarea {
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-bottom: 12px;
+	padding: 10px 15px;
+	margin: 5px;
+
+
+}
+
+.form textarea {
+	width: 100%;
+	min-height: 124px;
+	color: #fff;
+}
+
+.form input {
+	width: calc(48% - 30px);
+	color: #fff;
+}
+
+/*hove*/
+
+.form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {color: #fff;}
+.form input::-moz-webkit-input-placeholder, form textarea::-moz-webkit-input-placeholder {color: #fffb;}
+.form input:-moz-input-placeholder, form textarea:-moz-input-placeholder {color: #fff;}
+.form input:-moz-input-placeholder, form textarea:-ms-input-placeholder {color: #fff;}
+
+.grid {
+	display: grid;
+	grid-template-areas: "a a a a a a b b b"
+						 "c c c c d d d d d"
+						 "c c c c e e e e e"
+						 "f f f g g g g g g"
+}
+
+.grid-item-bg {
+	background-image: url(../img/1/bg.jpg);
+	grid-area: a;
+}
+
+.grid-item-gray {
+	background-image: url(../img/1/bg-gray.png);
+	grid-area: b;
+}
+
+.grid-item-blue {
+	background-image: url(../img/1/bg-blue.jpg);
+	grid-area: c;
+}
+
+.grid-item-beige {
+	background-image: url(../img/1/bg-beige.jpg);
+	grid-area: d;
+}
+
+.grid-item-black {
+	background-image: url(../img/1/bg-black.jpg);
+	grid-area: e;
+}
+
+.grid-item-human {
+	background-image: url(../img/1/bg-human.jpg);
+	grid-area: f;
+	min-height: 715px;
+	
+}
+
+
+.grid-item-green {
+	background-image: url(../img/1/bg-green1.jpg);
+	grid-area: g;
+	min-height: 715px;
+	background-color: #acb2af;
+}
+
+.grid-item-bg, .grid-item-blue, .grid-item-beige,
+.grid-item-black, .grid-item-human, .grid-item-green {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+.grid-item-gray, .grid-item-blue, .grid-item-beige,
+.grid-item-black, .grid-item-human, .grid-item-green {
+padding: 60px 55px 70px 55px;
+
+}
+
+.grid-item-beige, .grid-item-blue, .grid-item-black, .grid-item-human,
+.grid-item-green {
+	color: #ffffff;
+}
+
+.grid-item-beige a {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+} 
+
+.grid-item-blue>div {
+	margin-bottom: 70px;
+	}
+
+
+.logo {
+	margin-top: 255px;
+
+}
+
+
+
+
+.list {
+	padding: 0;
+	list-style-type: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.list>li {
+	margin-right: 10px;
+}
+
+.list>li>a {
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	border: none;
+	margin-top: 0;
+}
+
+.contacts {
+	margin-top: 160px;
+}
+.list>li>a.list-fb {
+	background-image: url(../img/facebook.svg);
+}
+.list>li>a.list-dr {
+	background-image: url(../img/vk.svg);
+}
+.list>li>a.list-tw {
+	background-image: url(../img/twitter.svg);
+}
+
+.logo__img {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	margin-bottom: 25px;
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+	h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 150px;
+	
+}
+	p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	a, input, textarea {
+	font-size: 13px;
+}
+button{
+	margin-bottom: 30px;
+}
+
+h2, h3, h4 {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+a{
+	margin-top: 25px;
+}
+
+.grid-item-gray, .grid-item-blue, .grid-item-beige,
+.grid-item-black, .grid-item-human, .grid-item-green {
+	padding: 40px 30px;
+}
+.grid-item-blue>div:last-child {
+	margin-bottom: 15px;
+}
+
+.grid-item-human {
+	min-height: inherit;
+}
+
+.logo-img {
+	width: 60px;
+	height: 60px;
+	}
+
+}
+
+/*media*/
+@media (max-width: 700px) {
+
+	h1{
+		font-size: 35px;
+		margin-top: 130px;
+	}
+
+.grid {
+	grid-template-areas: "a" "b" "c" "d" "e" "f" "g";
+}
+
+.grid-item-bg {
+	min-height: 300px;
+
+}
+
+span {
+	display: initial;
+}
+
+.grid-item-human>div {
+	width: 100%;
+}
+
+.grid-item-gray {
+	text-align: center;
+}
+
+.grid-item-beige {
+	text-align: center;
+}
+
+.grid-item-blue {
+	text-align: center;
+}
+
+.grid-item-black {
+	text-align: center;
+}
+
+.grid-item-human {
+	text-align: center;
+
+}
+.grid-item-green {
+	text-align: center;
+	justify-content: center;
+	min-height: 150px;
+}
+
+.grid-item-green>div {
+	width: 100%;
+}
+.logo {
+	margin-top: 0;
+}
+
+.contacts {
+	margin-top: 100px;
+}
+
+.list {
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.form {
+	justify-content: center;
+}
+
+a{
+	margin: 25px auto 0;
+}
+
+button {
+	margin: 20px auto 0;
+	margin-bottom: 20px;
+
+}
+
+ul {
+	text-align: center;
+}
+
+}
+
+@media (max-width: 400px) {
+	h1{
+		font-size: 33px;
+		margin-top: 120px;
+	}
+.form input {
+	width: 100%;
+}
+
+.grid-item-green {
+	min-height: 250px;
+}
+}
