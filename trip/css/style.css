@@ -94,7 +94,6 @@ button:hover {
 
 .grid-item:not(:first-child):hover {
 	border: 2px solid #ff8208;
-	transition: 0.3s ease-in;
 }
 
 
