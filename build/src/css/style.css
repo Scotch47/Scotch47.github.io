@@ -709,3 +709,9 @@ footer {
     min-height: 20rem;
   }
 }
+
+@media (max-width: 567px) {
+.main-title h1{
+  font-size: 2rem;
+}
+}
