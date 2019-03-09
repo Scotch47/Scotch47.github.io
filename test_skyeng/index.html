@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section class="container">
+ 
+    <div class="row">
+      <div class="mobile col-3 mn" data-modal="modalOne" >
+        <img src="img/device.svg" width="92" height="60" alt="mobile">
+        <h3>Mobile</h3>
+        <p>Get notification about new <br>releases in our mobile app.</p>
+        <span><sup>$</sup><strong>10</strong><sub>/month</sub></span>
+      </div>
+      <div  class="desktop col-3 mn" data-modal="modalTwo" >
+        <img src="img/laptop.svg" width="92" height="60" alt="desktop">
+        <h3>Desktop</h3>
+        <p>Enjoy new episides on your laptop <br> in browser with our web servise <br> which supports all the platforms</p>
+        <span><sup>$</sup><strong>15</strong><sub>/month</sub></span>
+      </div>
+      <div class="tv col-3 mn" data-modal="modalThree">
+        <img src="img/monitor.svg" width="92" height="60" alt="tv">
+        <h3>Tv</h3>
+        <p>Watch our favorite series at home <br> on large screen with our TV <br> application.</p>
+        <span><sup>$</sup><strong>20</strong><sub>/month</sub></span>
+
+      </div>
+
+
+      </div>
+      <div class="button-wrapper">
+        <button class="button">Give feedback</button>
+      </div>
+
+
+</section>
+
+<div id="modalOne" class="modal">
+
+<div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-col">
+      <h4>Confirmation</h4>  
+          <img src="img/device.svg" width="92" height="60" alt="mobile">
+          <h3>Mobile</h3>
+          <p>Get notification about new releases in our mobile app.</p>
+          <span><sup>$</sup><strong>10</strong><sub>/month</sub></span>
+           <button class="modal-btn button">Confirm and pay</button>
+    </div>
+      </div>
+
+ </div>
+
+
+
+
+ <div id="modalTwo" class="modal">
+
+<div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-col">
+      <h4>Confirmation</h4>  
+          <img src="img/laptop.svg" width="92" height="60" alt="desktop">
+        <h3>Desktop</h3>
+        <p>Enjoy new episides on your laptop  in browser with our <br> web servise  which supports all the platforms</p>
+        <span><sup>$</sup><strong>15</strong><sub>/month</sub></span>
+           <button class="modal-btn button">Confirm and pay</button>
+    </div>
+      </div>
+
+ </div>
+
+
+
+
+ <div id="modalThree" class="modal">
+
+<div class="modal-content tv">
+    <span class="close">&times;</span>
+    <div class="modal-col">
+      <h4>Confirmation</h4>  
+          <img src="img/monitor.svg" width="92" height="60" alt="tv">
+        <h3>Tv</h3>
+        <p>Watch our favorite series at home  on large screen with <br> our TV application.</p>
+        <span><sup>$</sup><strong>20</strong><sub>/month</sub></span>
+           <button class="modal-btn button">Confirm and pay</button>
+    </div>
+      </div>
+
+ </div>
+
+
+ <script src="js.js"></script>
+
+</body>
+</html>

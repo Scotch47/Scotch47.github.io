@@ -1,0 +1,83 @@
+// var modal = document.getElementById('myModal');
+// var btn = document.getElementById("myBtn");
+
+
+// var span = document.getElementsByClassName("close")[0];
+
+// btn.onclick = function() {
+//     modal.style.display = "block";
+// }
+// span.onclick = function() {
+//     modal.style.display = "none";
+// }
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
+
+
+
+// var modal2 = document.getElementById('myModal2');
+// var btn2 = document.getElementById("myBtn2");
+// var span2 = document.getElementsByClassName("close2")[0];
+
+// btn2.onclick = function() {
+//     modal2.style.display = "block";
+// }
+// span2.onclick = function() {
+//     modal2.style.display = "none";
+// }
+
+//  window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal2.style.display = "none";
+//   }
+// }
+
+
+
+
+
+// var modal3 = document.getElementById('myModal3');
+// var btn3 = document.getElementById("myBtn3");
+// var span3 = document.getElementsByClassName("close3")[0];
+// btn3.onclick = function() {
+//     modal3.style.display = "block";
+// }
+// span3.onclick = function() {
+//     modal3.style.display = "none";
+// }
+
+//  window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
+//  window3.onclick = function(event3) {
+//   if (event3.target == modal3) {
+//     modal3.style.display = "none";
+//   }
+// }
+
+var modalBtns = [...document.querySelectorAll(".mn")];
+modalBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.getAttribute('data-modal');
+    document.getElementById(modal).style.display = "block";
+  }
+});
+
+var closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
+});
+
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
