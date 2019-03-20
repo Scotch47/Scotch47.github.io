@@ -17,6 +17,6 @@
 
 8.)["Тестовое задание-2"](http://Scotch47.github.io/Test_2_level) -  тестовое задание 2. 
 
-9.)["Тестовое задание-3"](http://Scotch47.github.io/Test_1_level) -  тестовое задание 3. 
+9.)["Тестовое задание-3"](http://Scotch47.github.io/Test_3_level) -  тестовое задание 3. 
 
 
