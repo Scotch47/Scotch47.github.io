@@ -11,4 +11,6 @@
 
 5.)["Adventure-site"](http://Scotch47.github.io/trip/) -  проект на Гридах. 
 
+6.)["Тестовое задание Skyeng"](http://Scotch47.github.io/test_skyeng/) -  тестовое задание для Skyeng. 
+
 
