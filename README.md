@@ -13,4 +13,10 @@
 
 6.)["Тестовое задание Skyeng"](http://Scotch47.github.io/test_skyeng/) -  тестовое задание для Skyeng. 
 
+7.)["Тестовое задание-1"](http://Scotch47.github.io/Test_1_level) -  тестовое задание 1. 
+
+8.)["Тестовое задание-2"](http://Scotch47.github.io/Test_2_level) -  тестовое задание 2. 
+
+9.)["Тестовое задание-3"](http://Scotch47.github.io/Test_3_level) -  тестовое задание 3. 
+
 
