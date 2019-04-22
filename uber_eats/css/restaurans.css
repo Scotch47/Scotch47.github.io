@@ -1,0 +1,61 @@
+.restaurans {
+  padding-top: 35px;
+}
+
+.restaurants_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+
+
+}
+
+.rest__block {
+  max-width: 33.3%;
+  margin-right: 20px;
+  margin-bottom: 16px;
+
+
+
+
+}
+
+.restaurans__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1;
+  color: #1D1D1D;
+  margin-bottom: 16px;
+
+}
+
+
+
+.rest__block__img {
+  margin-bottom: 16px;
+}
+
+.caption {
+  line-height: 1.8;
+  font-weight: 400;
+  max-width: 94%;
+  }
+
+
+
+.caption__sub {
+  font-size: 16px;
+  color: #1D1D1D;
+
+}
+
+.caption__kind {
+  font-size: 14px;
+  color: #626262;
+}
+
+.caption__time {
+  font-size: 13px;
+  color: #1D1D1D;
+  padding-bottom: 20px;
+}

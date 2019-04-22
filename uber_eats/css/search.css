@@ -1,0 +1,26 @@
+.search {
+  padding: 40px 0;
+}
+
+
+.searching_form {
+  max-width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 15px;
+}
+
+.search_input {
+  width: 900px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #626262;
+  opacity: 0.5;
+}
+
+.find {
+  width: 22px;
+  height: 21px;
+  padding-right: 2px;
+  vertical-align: -5px;
+}
