@@ -3,11 +3,11 @@
 
 1.)[Штукатурка](http://Scotch47.github.io/build/src/) - первый учебный макет.
 
-2.)[Тату сайт](http://Scotch47.github.io/tattoo/)- первый самостоятельный проект, сделал другу, он бьет крутые татухи :) потом выяснилось, что сайт ему пока не нужен, поэтому оставили до лучших времен. Сделан грубо, диватоз сплошной))) В дальнейшем планирую переделать.
+2.)[Тату сайт](http://Scotch47.github.io/tattoo/)- первый самостоятельный проект
 
-3.)["Только шапка+адаптив"](http://Scotch47.github.io/Header-test/src/)- тестовое задание. Задача была сверстать по макету и придумать адаптив. По макету сверстал,адаптив придумал, что тут еще сказать)
+3.)["Только шапка+адаптив"](http://Scotch47.github.io/Header-test/src/)- тестовое задание. 
 
-4.)["Приглашательный лендинг"](http://Scotch47.github.io/Oathjar/src/) - необычный макет) без bootstrap на флексах
+4.)["Приглашательный лендинг"](http://Scotch47.github.io/Oathjar/src/) 
 
 5.)["Adventure-site"](http://Scotch47.github.io/trip/) -  проект на Гридах. 
 
@@ -19,8 +19,8 @@
 
 9.)["Тестовое задание-3"](http://Scotch47.github.io/Test_3_level) -  тестовое задание 3. 
 
-10.)["Farm-city"](http://Scotch47.github.io/farm_city) 
+10.)["Farm-city"](http://Scotch47.github.io/farm_city) - лендинг Farm City
 
-11.)["Uber_eats"](http://Scotch47.github.io/uber_eats) 
+11.)["Uber_eats"](http://Scotch47.github.io/uber_eats) - Uber Eats
 
 
