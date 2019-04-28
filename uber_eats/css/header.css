@@ -22,31 +22,31 @@
 }
 
 
-.basket svg {
+.basket {
   margin-left: 25px;
   vertical-align: middle;
 }
 
-.white {
+.button_white {
   background-color: #fff;
   margin-right: 16px;
   border: 1px solid #E0E0E0;
 
 }
 
-.black {
+.button_black {
   background: #262626;
   color: #FFFFFF;
   border: none;
 }
 
-.form input {
+/* .form input {
   padding: 8px;
   color: #1D1D1D;
   border: 1px solid #E0E0E0;
-  border-radius: 2px;
+  border-radius: 50px;
 
-}
+} */
 .form_txt {
   font-weight: 300;
   color: #626262;
@@ -55,12 +55,12 @@
 
 .city {
   max-width: 65px;
-  text-indent: 5px;
+  padding-left: 15px;
   border: 1px solid #e0e0e0;
 
 }
 
-input.street {
+.street {
   border: 1px solid #e0e0e0;  
   padding-left: 30px;
   padding-right: 70px;
