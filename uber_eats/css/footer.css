@@ -216,6 +216,7 @@
   .footer__copy__terms--t {
     padding-left: 190px;
   }
+}
 
 
 
@@ -327,7 +328,6 @@
     .container {
       width: 290px;
     }
-
     .street {
       max-width: 250px;
       padding-left: 30px;
