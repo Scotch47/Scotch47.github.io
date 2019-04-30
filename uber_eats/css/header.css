@@ -27,14 +27,14 @@
   vertical-align: middle;
 }
 
-.button_white {
+.button--white {
   background-color: #fff;
   margin-right: 16px;
   border: 1px solid #E0E0E0;
 
 }
 
-.button_black {
+.button--black {
   background: #262626;
   color: #FFFFFF;
   border: none;

@@ -1,0 +1,148 @@
+.footer {
+  background-color: #262626;
+}
+
+.footer-logo {
+  padding-top: 55px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+
+}
+
+/* footer-info */
+.footer-info {
+  display: flex;
+  padding-bottom: 48px;
+  padding-top: 32px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+
+}
+
+.footer-info__social {
+
+}
+
+
+.footer-info__social__select {
+  width: 227px;
+  height: 40px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #3B3B3B !important;
+  border: none;
+  border-radius: 2px;
+  padding-left: 45px;
+  background: url(../img/mobile_stories/icons/world.svg)no-repeat 12px center;
+  margin-bottom: 33px;
+}
+
+.footer-info__social__select option {
+  background-color: #3B3B3B;
+  padding-left: 0;
+}
+
+.footer-info__social--txt {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 20px;
+
+}
+.footer-info__social--txt > span {
+  color: #49A144;
+}
+.footer-info__social--link{
+  padding-right: 5px;
+}
+
+
+
+
+
+.footer-info__list{
+  
+  padding-left: 95px;
+}
+
+.footer-info__list__about {
+  list-style: none;
+
+}
+
+.footer__info__link {
+ display: block;
+ text-decoration: none;
+}
+
+.footer__info__link--white {
+  color: white;
+  font-size: 13px;
+  line-height: 15px;
+  padding-bottom: 23px;
+}
+
+
+/* footer-info__nav */
+.footer-info__nav{
+  padding-left: 154px;
+  
+}
+
+.footer-info__nav__list {
+  list-style: none;
+  
+
+}
+.footer-info__nav__list--link {
+  color: white;
+ display: block;
+  font-size: 13px;
+  padding-bottom: 23px;
+  text-decoration: none;
+
+}
+
+
+
+/* footer-mobile */
+.footer-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 39px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+.footer-mobile--btn {
+  cursor: pointer;
+}
+.footer-mobile--google {
+  margin-left: 20px;
+}
+
+/* footer-copy */
+.footer-copy {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+
+}
+
+.footer__copy__name {
+  color: #fff;
+  font-size: 11px;
+}
+
+.footer__copy__terms {
+  color: #fff;
+  font-size: 11px;
+  text-decoration: none;
+}
+.footer__copy__terms--priv{
+  padding-left: 175px;
+
+}
+.footer__copy__terms--t {
+  padding-left: 288px;
+}
