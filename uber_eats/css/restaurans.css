@@ -5,10 +5,11 @@
 .restaurants__wrapper {
   display: flex;
   flex-wrap: wrap;
-   margin-right: -23px;
-   margin-bottom: 100px;
+  flex: 1 0 auto;
 
-
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 100px;
 
 }
 
@@ -16,7 +17,8 @@
 .rest__block {
   flex: 1 0 30%;
   max-width: 33.3%;
-  margin-right: 23px;
+  margin-right: 5px;
+  margin-left: 5px;
   margin-bottom: 16px; 
   text-decoration: none;
   display: inline-block;
@@ -36,6 +38,8 @@
 
 .rest__block__img {
   margin-bottom: 16px;
+  width: 100%;
+  height: auto;
 }
 
 .caption {

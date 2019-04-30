@@ -9,18 +9,19 @@
   padding-bottom: 15px;
 }
 
-.search_input {
-  min-width: 900px;
+.search__input {
+  width: 100%;
   border: none;
   outline: none;
   font-size: 16px;
-  color: #626262;
-  opacity: 0.5;
+  color: rgba(98, 98, 98, 0.5);
+  background: url(../img/mobile_stories/icons/search.svg)no-repeat 12px center;
+  padding-left: 35px;
+
 }
 
 .find {
   width: 22px;
   height: 21px;
   padding-right: 2px;
-  vertical-align: -5px;
 }

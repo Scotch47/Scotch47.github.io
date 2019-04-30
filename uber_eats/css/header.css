@@ -64,6 +64,6 @@
   border: 1px solid #e0e0e0;  
   padding-left: 30px;
   padding-right: 70px;
-  width: 292px;
+  max-width: 292px;
   background: url(../img/mobile_stories/icons/location.svg)no-repeat 12px center;
 }
