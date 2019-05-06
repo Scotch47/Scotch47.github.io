@@ -101,7 +101,7 @@ body {
 }
 
 .info_title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   padding-bottom: 20px;
 }
@@ -181,6 +181,7 @@ body {
     text-align: center;
     align-items: center;
     padding-top: 40px;
+    padding-right: 0;
   }
 
   .work_title {
@@ -236,12 +237,7 @@ body {
   }
 
   @media screen and (max-width: 580px) {
-    .header {
-      padding-right: 0;
-      align-items: center;
-    }
-
-    .contact_wrapper_title {
+       .contact_wrapper_title {
       font-size: 22px;
       font-weight: 700;
       color: #fff;
