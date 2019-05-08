@@ -402,7 +402,6 @@ body {
 .not-found {
   transform: rotate(0deg);
   font: 55px 'Carter One', cursive;
-  cursive;
   color: #777;
   position: absolute;
   display: block;
@@ -542,7 +541,7 @@ body {
 .whiskers div:nth-child(4) {
   left: 29px;
   top: 28px;
-  transform: rotate(--2deg);
+  transform: rotate(-2deg);
   width: 20px;
 }
 
@@ -852,8 +851,7 @@ body {
 
   56% {
     height: 4px;
-    top;
-    13px
+    top    13px;
   }
 
   70% {

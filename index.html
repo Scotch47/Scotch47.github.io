@@ -7,17 +7,19 @@
   <title>Vitaly Ratnikov</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vader.css">
+
 </head>
 
 <body>
   <header class="header">
     <div class="contact__wrapper">
-      <img src="img/vit.jpg" alt="vit" class="contact_wrapper_img" title="Лысый из браузера">
+      <img src="img/vit_logo.jpg" alt="vit_logo" class="contact_wrapper_img" title="Лысый из браузера">
       <h1 class="contact_wrapper_title">Меня зовут Виталий<br>я HTML-верстальщик</h1>
     </div>
-    <a href="#" class="button contact_button">Скачать резюме</a>
+    <a href="/assets/file/cv.docx" download class="button contact_button">Скачать резюме</a>
 
     <div class="social__wrapper social__wrapper--hide">
       <ul class="social_icons">
@@ -68,13 +70,13 @@
     <div class="info">
       <h2 class="info_title">Хочу стать frontend разработчиком</h2>
 
-      <p class="info_text">Учу java script, пытаюсь в БЭМ, практикуюсь в вёрске. <br> Я знаю HTML+CSS, flexbox,
-        адаптивную верстку, работал с bootstrap, знаком и применял препроцессор Less, подключаю Jquery, пишу и
+      <p class="info_text">Учу Java script, пытаюсь в БЭМ, практикуюсь в вёрстке и осваиваю Sass.<br>Знаю HTML+CSS,
+        flexbox, адаптивную верстку, работал с bootstrap, применял препроцессор Less.<br>Подключаю Jquery, пишу и
         разбираюсь в несложных скриптах.</p>
       <p class="info_text"></p>
 
 
-      <a href="/about.html" class="button info_btn">Подробнее Обо мне</a>
+      <a href="#" id="myBtn" class="button info_btn">Подробнее</a>
 
     </div>
 
@@ -137,7 +139,7 @@
 
 
       </div>
-      <a href="https://proteys.info/404/" class="button work_btn">Все работы</a>
+      <a href="about.html" class="button work_btn">Все работы</a>
 
     </div>
 
@@ -196,8 +198,55 @@
 
   </footer>
 
+  <!-- modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-content">
+      <div class="modal-content-about">
+        <h3 class="modal-content-skills__title">Обо мне</h3>
+        <ul class="modal-content-about__list">
+          <li>Ратников Виталий</li>
+          <li>30 августа 1991</li>
+          <li><a class="modal_link" href="mailto:Scotch47@mail.ru?subject=Приглашаем_на_собеседование">Email - Scotch47@mail.ru</a></li>
+        </ul>
 
+        <p class=" modal-content-about__txt">4 года работал ведущим специалистом отдела закупок в крупной
+          авиастроительной компании, заинтересовался IT сферой и сменил работу.</p>
+        <p class="modal-content-about__txt">Прошел курсы по вёрстке и продолжаю пополнять знания. Цель стать полноценным frontend разработчиком.</p><br>
 
+        <p class="modal-content-about__txt">5 фактов обо мне:</p>
+
+        <ul class="modal-content-about__list">
+          <li>Нравится фантастика</li>
+          <li>Слушаю тяжелую музыку</li>
+          <li>Люблю путешествовать</li>
+          <li>Считаю, что двойные чизбургеры в макдональдсе лучше 90% остальных бургеров</li>
+          <li>В детстве меня сбил велосипед</li>
+        </ul>
+      </div>
+
+      <div class="modal-content-img">
+        <img src="img/vit.jpg" alt="Лысый из браузера" class="modal-content__img" width="200" height="250">
+      </div>
+
+      <div class="modal-content-skills">
+        <h3 class="modal-content-skills__title">Знания</h3>
+        <ul class="modal-content-skills__list">
+          <li>HTML + CSS</li>
+          <li>Адаптивная вёрстка</li>
+          <li>Flexbox</li>
+          <li>Grid</li>
+          <li>Bootstrap</li>
+          <li>Jqery</li>
+          <li>LESS</li>
+          <li>Git & github</li>
+          <li>БЭМ</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
