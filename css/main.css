@@ -29,6 +29,7 @@ body {
   box-shadow: 2px 2px 15px #000000;
   padding-bottom: 50px;
 
+
 }
 
 .contact_wrapper_title {
@@ -186,13 +187,14 @@ body {
 /* Modal content */
 
 .modal-content {
-  background-color: #03040ca1;
+  background-color: #03040ce3;
   margin: 5% auto;
   padding: 20px;
   width: 95%;
   display: flex;
   justify-content: center;
   position: relative;
+  border-radius: 10px;
 
 }
 
@@ -266,8 +268,8 @@ body {
 
 .close {
   position: absolute;
-  top: 40px;
-  right: 30px;
+  top: 55px;
+  right: 35px;
   color: #fff;
   font-size: 40px;
   z-index: 1;

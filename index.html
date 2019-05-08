@@ -9,15 +9,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/vader.css">
 
 </head>
 
-<body>
+<body class="bod">
   <header class="header">
     <div class="contact__wrapper">
       <img src="img/vit_logo.jpg" alt="vit_logo" class="contact_wrapper_img" title="Лысый из браузера">
       <h1 class="contact_wrapper_title">Меня зовут Виталий<br>я HTML-верстальщик</h1>
+  <a href="#" class="login-link">Вход</a>
+
     </div>
     <a href="/assets/file/cv.docx" download class="button contact_button">Скачать резюме</a>
 
@@ -73,7 +74,6 @@
       <p class="info_text">Учу Java script, пытаюсь в БЭМ, практикуюсь в вёрстке и осваиваю Sass.<br>Знаю HTML+CSS,
         flexbox, адаптивную верстку, работал с bootstrap, применял препроцессор Less.<br>Подключаю Jquery, пишу и
         разбираюсь в несложных скриптах.</p>
-      <p class="info_text"></p>
 
 
       <a href="#" id="myBtn" class="button info_btn">Подробнее</a>
@@ -246,25 +246,8 @@
     </div>
   </div>
 
-  <script>var modal = document.getElementById('myModal');
 
-      var btn = document.getElementById("myBtn");
-      
-      var span = document.getElementsByClassName("close")[0];
-      
-      btn.onclick = function() {
-          modal.style.display = "block";
-      }
-      
-      span.onclick = function() {
-          modal.style.display = "none";
-      }
-      
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
-      }</script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
