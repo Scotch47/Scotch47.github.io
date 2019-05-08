@@ -175,6 +175,21 @@ body {
 
 
 /* modal */
+@keyframes bounce {
+  0% { transform: translateY(-2000px); }
+  70% { transform: translateY(30px); }
+  90% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+  }
+  @keyframes close {
+    0% { transform: translateY(2000px); }
+    70% { transform: translateY(30px); }
+    90% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+    }
+
+
+
 .modal {
   display: none;
   position: fixed;
@@ -201,8 +216,13 @@ body {
   align-items: center;
   position: relative;
   border-radius: 10px;
+  animation-name: bounce;
+animation-duration: 1s;
+
+
 
 }
+
 
 
 .modal-content-skills {
@@ -290,6 +310,11 @@ body {
   color: #fff;
   font-size: 40px;
   z-index: 1;
+  animation-name: bounce;
+animation-duration: 1s;
+
+
+
 }
 
 .close:hover,
