@@ -58,6 +58,8 @@ body {
 
 }
 
+
+
 .button:hover {
   transition: 0.3s;
   color: #fff;
@@ -275,6 +277,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 2%;
+  object-fit: cover;
 }
 
 
@@ -410,7 +413,7 @@ body {
     width: 50%;
     order: 1;
     align-self: flex-start;
-    flex: 0 1 30%;
+    flex: 0 1 40%;
 
 
 
@@ -459,7 +462,7 @@ body {
 
   .modal-content-img {
     width: 100%;
-    flex: 0 1 100%;
+    flex: 0 1 80%;
 
   }
 
@@ -505,6 +508,10 @@ body {
     top: 20px;
     right: 35px;
   }
+
+
+
+
 
 }
 
