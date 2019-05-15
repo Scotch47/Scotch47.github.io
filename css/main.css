@@ -324,8 +324,8 @@ body {
 
 .close {
   position: absolute;
-  top: 55px;
-  right: 35px;
+  top: -5px;
+  right: 10px;
   color: #fff;
   font-size: 40px;
   z-index: 1;
@@ -415,11 +415,6 @@ body {
     order: 1;
     align-self: flex-start;
     flex: 0 1 40%;
-
-
-
-
-
   }
 
   .modal-content__img {
@@ -432,19 +427,8 @@ body {
     order: 3;
     flex: 0 1 60%;
     align-self: flex-start;
-
-
-
-
   }
 
-
-
-
-  .close {
-    top: 35px;
-    right: 30px;
-  }
 
 }
 
@@ -469,10 +453,6 @@ body {
 
   .modal-content__img {
     width: 60%;
-
-
-
-
   }
 
 
@@ -483,12 +463,6 @@ body {
 
   }
 
-
-
-  .close {
-    top: 30px;
-    right: 45px;
-  }
 }
 
 @media screen and (max-width: 700px) {
@@ -504,16 +478,6 @@ body {
   .work {
     text-align: center;
   }
-
-  .close {
-    top: 20px;
-    right: 35px;
-  }
-
-
-
-
-
 }
 
 @media screen and (max-width: 580px) {
@@ -547,18 +511,6 @@ body {
     font-size: 14px;
   }
 
-  .close {
-    top: 15px;
-    right: 30px;
-  }
 
 }
 
-
-@media screen and (max-width: 450px) {
-  .close {
-    top: 10px;
-    right: 20px;
-  }
-
-}

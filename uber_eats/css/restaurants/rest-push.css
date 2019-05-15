@@ -198,6 +198,7 @@ font-size: 22px;
 line-height: 1;
 color: #1D1D1D;
 margin-top: 56px;
+position: relative;
 
 
 }
@@ -231,6 +232,8 @@ text-decoration: none;
 
 .food-block-text {
   padding: 16px 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .food-block-text__title {
@@ -251,7 +254,7 @@ color: #626262;
 
 
 .food-block-text__price {
-  /* margin-top: 55px;  */
+  margin-top: auto;
 font-weight: 500;
 font-size: 15px;
 line-height: 1.5;
@@ -267,7 +270,6 @@ color: #1D1D1D;
 
 .food-block__img {
 max-width: 100%;
-height: auto;
   
 }
 
@@ -536,13 +538,17 @@ position: relative;
    }
 
    .food-inner__title::after{
+    
     content: "";
-    bottom: -50%;
-    left: 43%;
-    height: 1px;
-    width: 15%;
     position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 70px;
+    height: 1px;
     background-color: #757575;
+    right: 0;
+    margin: 0 auto;
+
    }
 
 }
