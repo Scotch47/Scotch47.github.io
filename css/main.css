@@ -164,6 +164,8 @@ body {
 .work_block_img {
   width: 100%;
   padding-bottom: 20px;
+ border-radius: 30px;
+
   
 
 }
