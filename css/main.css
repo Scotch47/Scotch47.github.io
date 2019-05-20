@@ -122,6 +122,11 @@ body {
   padding-bottom: 30px;
 }
 
+.info_btn {
+  display: inline-block;
+  margin-top: 20px;
+}
+
 .work {
   border-top: 1px solid #fff;
   margin-top: 60px;
@@ -477,7 +482,7 @@ body {
   }
 
   .modal-content__img {
-    width: 60%;
+    width: 55%;
   }
 
 
@@ -493,10 +498,14 @@ body {
 @media screen and (max-width: 700px) {
 
   .work__block {
-    max-width: 100%;
+    max-width: 80%;
   }
 
-  .info {
+
+
+  .info_btn {
+    display: block;
+    margin-top: 20px;
     text-align: center;
   }
 
