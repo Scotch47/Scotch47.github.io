@@ -107,7 +107,7 @@ body {
   width: calc(100% - 30%);
   color: #fff;
   background: rgb(0, 0, 0);
-  background: radial-gradient(circle, rgba(42, 53, 105, 1) 0%, rgba(42, 77, 255, 1) 0%, rgba(27, 55, 73, 1) 30%, rgba(0, 0, 0, 1) 100%);
+  background: radial-gradient(circle, rgba(42, 53, 105, 1) 0%, rgb(34, 74, 100) 0%, rgba(27, 55, 73, 1) 30%, rgba(0, 0, 0, 1) 100%);
 
 }
 
