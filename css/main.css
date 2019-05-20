@@ -154,20 +154,43 @@ body {
   max-width: 47%;
   margin-left: 17px;
   text-align: center;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
+  }
 
-}
+
+
 
 
 .work_block_img {
   width: 100%;
   padding-bottom: 20px;
+  
 
 }
 
 .work_block_title {
+  font-size: 18px;
+  text-transform: uppercase;
   padding-bottom: 15px;
 
+}
+
+.work_block_txt{
+  padding: 0 5px;
+  padding-bottom: 25px;
+  line-height: 1.5;
+
+}
+
+.work__block__caption {
+ min-height: 100%;
+ border-radius: 30px;
+}
+
+.work__block__caption:hover {
+  background: radial-gradient(circle, rgba(42, 53, 105, 0.356) 0%, rgba(34, 74, 100, 0.267) 0%, rgba(27, 55, 73, 0.507) 30%, rgba(0, 0, 0, 0.356) 100%);
+  transition: 0.2s;
+  box-shadow: rgba(2, 2, 3, 0.37) 5px 4px;
 }
 
 
