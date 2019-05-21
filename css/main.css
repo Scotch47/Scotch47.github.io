@@ -169,7 +169,6 @@ body {
 .work_block_img {
   width: 100%;
   padding-bottom: 20px;
- border-radius: 30px;
 
   
 
@@ -498,7 +497,13 @@ body {
 @media screen and (max-width: 700px) {
 
   .work__block {
-    max-width: 80%;
+    max-width: 90%;
+    background: radial-gradient(circle, rgba(42, 53, 105, 0.356) 0%, rgba(34, 74, 100, 0.267) 0%, rgba(27, 55, 73, 0.507) 30%, rgba(0, 0, 0, 0.356) 100%);
+  transition: 0.2s;
+  box-shadow: rgba(2, 2, 3, 0.37) 5px 4px;
+ border-radius: 30px;
+
+
   }
 
 
