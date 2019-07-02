@@ -1,0 +1,21 @@
+section.form-section
+  .container
+    .title
+      h2.title.title__header Get Your Facebook Analysis Now
+      .title__text Enter your details below
+
+    .btn-down: a.arrow-down.arrow-close(href="form.html" target="_blank"): i.fa.fa-angle-down
+
+    .form-container.is-hidden
+      form(method="post" action="#").form
+        button(type="button").form__close-button X
+        .form__text.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate porro impedit perspiciatis quo. Ducimus repellendus provident nobis neque assumenda.
+
+        .form__fields
+          input.form__input(type="text" placeholder="Your Name" data-valid="required")
+          input.form__input(type="text" placeholder="Contact Number" data-valid="required")
+          input.form__input(type="text" placeholder="Contact Name" data-valid="required")
+
+        button(type="submit").button.button--text-uppercase.button--red Submit now
+
