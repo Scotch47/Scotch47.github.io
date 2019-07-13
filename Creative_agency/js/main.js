@@ -14,7 +14,7 @@ $(document).ready(function() {
 	// up
 		$('#scrollToTop').click(function(event) {
 			event.preventDefault();
-			$('html').animate({scrollTop: 0}, 800);
+			$('html,body').animate({scrollTop: 0}, 800);
 		});
 
 		
