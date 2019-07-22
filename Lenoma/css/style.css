@@ -1475,6 +1475,11 @@ ol {
     top: 6px;
     left: 60px;
   }
+
+  .slick-dots {
+    bottom: 5%;
+    left: -5%;
+  }
 }
 
 @media screen and (max-width: 991px) {
