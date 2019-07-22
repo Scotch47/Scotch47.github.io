@@ -5,7 +5,7 @@ $(document).ready(function(){
   adaptiveHeight: true,
 
   dots: true,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   accessibility: true,
   speed: 1200,
