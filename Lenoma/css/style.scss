@@ -56,6 +56,10 @@ ol {
   display: none;
 }
 
+#main-nav {
+  display: none;
+}
+
 // ----------------------header-------------------------
 
 .header {
@@ -1199,89 +1203,18 @@ ol {
 }
 
 
-
-
-// ------------------adp-menu----------------------------------
-.menu__icon {
-  display: none;
-  width: 45px;
-  height: 35px;
-  position: relative;
-  cursor: pointer;
-}
-
-.menu__icon span {
-  display: block;
-  position: absolute;
-  height: 5px;
-  width: 100%;
-  background: $add-color;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: .25s ease-in-out;
-  z-index: 99;
-}
-
-.menu__icon span:nth-child(1) {
-  top: 0px;
-}
-
-.menu__icon span:nth-child(2),
-.menu__icon span:nth-child(3) {
-  top: 13px;
-}
-
-.menu__icon span:nth-child(4) {
-  top: 26px;
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(1) {
-  top: 18px;
-  width: 0%;
-  left: 50%;
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(2) {
-  transform: rotate(45deg);
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(3) {
-  transform: rotate(-45deg);
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(4) {
-  top: 18px;
-  width: 0%;
-  left: 50%;
-}
-
-.menu.menu_state_open .menu__links {
-  display: flex;
-}
-
 //---------------------media------------------------------
 
 @media screen and (max-width: 1080px) {
 
-  .nav {
-    flex-direction: column;
-
-    &__list {
-      padding-top: 15px;
-
-      &__link {
-        font-size: 16px;
-      }
-    }
+  .header-top {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
-  .header-nav {
-    flex-direction: column;
-  }
+
 
   .login {
-    margin-top: 25px;
+    // margin-top: 25px;
 
     &__nav {
       &__list {
@@ -1324,60 +1257,7 @@ ol {
     padding-bottom: 15px;
   }
 
-  .menu__icon {
-    display: block;
-    top: 0;
-    left: 25px;
-    z-index: 99;
-  }
-
-  .menu__links {
-    display: none;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999;
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .menu__links-item {
-    display: block;
-    padding-top: 10px;
-    margin: 0;
-    text-align: left;
-
-  }
-
-  .category {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    &__list {
-      display: inline-block;
-    }
-
-  }
-
-  .category__list__link--sale {
-    padding: 0;
-    line-height: 1;
-  }
-
-
-  .drop-menu {
-    position: absolute;
-    top: 10px;
-    left: 120px;
-    background-color: $main-light-color;
-    border-top: 3px solid $add-color;
-    padding: 10px 20px 10px 20px;
-    z-index: 10;
-  }
-
-  .reference {
+   .reference {
     position: absolute;
     top: -50px;
     right: 0;
@@ -1422,6 +1302,79 @@ ol {
 }
 
 @media screen and (max-width: 991px) {
+  .hc-nav-trigger span, .hc-nav-trigger span::before, .hc-nav-trigger span::after {
+background : $add-color;
+  }
+
+  .hc-offcanvas-nav:not(.touch-device) a:hover {
+    background: none;
+}
+.hc-offcanvas-nav li.nav-close a:hover, .hc-offcanvas-nav li.nav-back a:hover {
+  background: none;
+}
+
+  .hc-offcanvas-nav .nav-container, .hc-offcanvas-nav .nav-wrapper, .hc-offcanvas-nav ul {
+background : $main-dark-color;
+
+  }
+
+  .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav li.nav-back a {
+    background : $main-dark-color;
+    border-color: $add-color;
+  }
+
+  .hc-offcanvas-nav a, .hc-offcanvas-nav .nav-item {
+    border-color: $add-color;
+
+  }
+
+  .category__list { 
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+.nav-hidden {
+  display: none;
+}
+
+.hc-nav-trigger {
+  left: 25px;
+  position: fixed;
+}
+
+.nav {
+  flex-direction: column;
+}
+
+.category {
+  flex-direction: column;
+
+}
+
+.category__list--sale {
+  padding: 0;
+}
+
+.category__list__link--sale {
+  padding: 0;
+}
+
+
+
+.header-nav {
+  justify-content: center;
+}
+
+.header-middle{
+border-bottom: 1px solid #eceaed;
+
+
+}
+
+.login {
+  margin-top: 40px;
+}
   .slick-dots {
     bottom: 5%;
     left: -5%;
@@ -1633,6 +1586,9 @@ ol {
 
   .footer-info {
     justify-content: center;
+  }
+  .footer-copy {
+    padding-right: 5px;
   }
 }
 
