@@ -715,25 +715,25 @@ ol {
 }
 
 .slider-blocks .prev {
-  background: url(/img/prev.png) center no-repeat;
+  background: url(../img/prev.png) center no-repeat;
   top: 230px;
   left: 0;
   outline: none;
 
   &:hover {
-    background: url(/img/prev-a.png) center no-repeat;
+    background: url(../img/prev-a.png) center no-repeat;
   }
 
 }
 
 .slider-blocks .next {
-  background: url(/img/next.png) center no-repeat;
+  background: url(../img/next.png) center no-repeat;
   top: 230px;
   right: 0;
   outline: none;
 
   &:hover {
-    background: url(/img/next-a.png) center no-repeat;
+    background: url(../img/next-a.png) center no-repeat;
   }
 
 }

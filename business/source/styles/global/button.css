@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 10px 22px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button--red {
+  background-color: #de2b24;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button--red:hover {
+  background: #c1231d;
+}
+
+.button--yellow {
+  background-color: #f8cd53;
+}
+
+.button--yellow:hover {
+  background: #f7c331;
+}
+
+.button--text-uppercase {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=button.css.map */
