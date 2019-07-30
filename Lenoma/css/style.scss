@@ -177,7 +177,7 @@ ol {
     text-transform: uppercase;
     margin-bottom: 20px;
     outline: none;
-    background: url(/img/header/search.png) no-repeat right;
+    background: url(../img/header/search.png) no-repeat right;
   }
 }
 
@@ -191,17 +191,17 @@ ol {
     margin-bottom: 10px;
 
     &--call {
-      background: url(/img/header/tel.png) no-repeat 1% 30%;
+      background: url(../img/header/tel.png) no-repeat 1% 30%;
       padding-left: 25px;
     }
 
     &--mail {
-      background: url(/img/header/mail.png) no-repeat 1% 30%;
+      background: url(../img/header/mail.png) no-repeat 1% 30%;
       padding-left: 25px;
     }
 
     &--time {
-      background: url(/img/header/time.png) no-repeat 1% 30%;
+      background: url(../img/header/time.png) no-repeat 1% 30%;
       padding-left: 25px;
     }
 
@@ -760,24 +760,24 @@ ol {
 }
 
 .slider-brend .prev {
-  background: url(/img/prev.png) center no-repeat;
+  background: url(../img/prev.png) center no-repeat;
   top: 90px;
   left: 0;
   outline: none;
 
   &:hover {
-    background: url(/img/prev-a.png) center no-repeat;
+    background: url(../img/prev-a.png) center no-repeat;
   }
 }
 
 .slider-brend .next {
-  background: url(/img/next.png) center no-repeat;
+  background: url(../img/next.png) center no-repeat;
   top: 90px;
   right: 0;
   outline: none;
 
   &:hover {
-    background: url(/img/next-a.png) center no-repeat;
+    background: url(../img/next-a.png) center no-repeat;
   }
 
 }
@@ -1094,7 +1094,7 @@ ol {
         }
 
         &--skype {
-          background: url(/img/footer/skype.png) no-repeat 1% 30%;
+          background: url(../img/footer/skype.png) no-repeat 1% 30%;
           padding-left: 25px;
         }
 
@@ -1197,7 +1197,7 @@ ol {
 
 .footer-dev__link {
   color: $main-light-color;
-  background: url(/img/footer/map.png) no-repeat 1% 30%;
+  background: url(../img/footer/map.png) no-repeat 1% 30%;
   padding-left: 25px;
   vertical-align: middle;
 }
