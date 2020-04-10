@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Металл Строй Монтаж</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="all-wrap">
+    <header class="header" id="about">
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-wrap">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li>
+                  <a href="#about" class="nav__link nav__link--active click js-nav">о компании</a>
+                </li>
+                <li>
+                  <a href="#servises" class="nav__link click js-nav">наши услуги</a>
+                </li>
+                <li>
+                  <a href="#calc" class="nav__link click js-nav">заказать</a>
+                </li>
+                <li>
+                  <a href="#groups" class="nav__link click js-nav">входные группы</a>
+                </li>
+                <li>
+                  <a href="#work" class="nav__link click js-nav">портфолио</a>
+                </li>
+                <li>
+                  <a href="#map" class="nav__link click js-nav">контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="phone">
+              <img src="/img/header/phone.png" alt="phone" class="phone__img" width="27" height="26">
+              <a href="#" class="phone__txt">+7 (961) 770-66-61</a>
+            </div>
+            <div class="header-top__burger"><span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-main">
+        <div class="container">
+          <div class="header-main-wrap">
+            <div class="header-desc">
+              <div class="header-desc-heading">
+                <img src="/img/header/logo.png" alt="logo" class="header-desc-heading__logo" width="67" height="88">
+                <h1 class="header-desc-heading__title">
+                  Металл Строй Монтаж
+                </h1>
+              </div>
+              <p class="header-desc__text">Наша организация производит изготовление, и монтаж ограждений из нержавеющей
+                стали, стекла и черных металлов. Современное оборудование и профессиональная команда позволяют нам
+                создавать
+                конструкции любой сложности и конфигурации в соответствии с пожеланиями заказчика.
+              </p>
+              <p class="header-desc__text">Гармоничное сочетание высоколегированного стального сплава со стеклом или
+                пластиком придаст всей конструкции современный вид и позволит идеально вписаться в общий архитектурный
+                дизайн.
+                Изготовление ограждений из нержавеющей стали в нашей компании производится по эскизам заказчика с
+                соблюдением всех норм и правил безопасности.</p>
+
+              <a href="#calc" class="button header-desc__btn click">ЗАКАЗАТЬ</a>
+            </div>
+
+            <div class="slider">
+              <div class="slider-item">
+                <img src="/img/header-slider/header-slide-1.png" alt="slide-1" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/header-slider/header-slide-2.png" alt="slide-2" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/header-slider/header-slide-3.png" alt="slide-3" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/header-slider/header-slide-4.png" alt="slide-4" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/header-slider/header-slide-5.png" alt="slide-5" class="slider-item__img">
+              </div>
+            </div>
+          </div>
+
+          <div class="arrow-down">
+            <a href="#features" class="click">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="40"
+                viewBox="0 0 22 40" class="arrow-down__svg">
+                <g>
+                  <g>
+                    <image width="22" height="40"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAoCAYAAAD6xArmAAACOUlEQVRIS+2Xv68MURTHv2fWipl7Z9mQDQmyeV5BgkIiav+BREOEUHkqVKg8FSpP5akIERqJ/0AtEgUSCkRCQjZk2bl3RqydI+dl3mbXzq/dTjK3m9xzPnPm3O+cby4hZxljTgK4kxFySmt9NyudKvBqB6pWDLVQtaJqxeRgqFTxP6vCGLNHa/0qbeDP6iDCJGOM2Mt+APccx3nged7n1ZdMAw7DcGscx8cAnADwnKIo2j4YDN4BqANgAE8B3I+i6LHruofzPG8k5jiAgwBEvv1arTa/ouMgCJaJ6PQ/7YgAvARwIMMXnwHYC8Ad3Wfm277vL6yArbVbmPkDgHV55lpi7xcRzSmlvgz/PGPMEoCzJZLzQm5qrc9JwBDc6/U2OY7zEYCaEW7jOG43Go1vY2B5MMZcA3BhRvB1rfXFVJfudrsb6vW6VL1+SvjPfr/fbjabPzLtPwiCRSK6PA2Yma/4vr84mjMxNjudjvY8T6reWBL+PQzDdqvVMrngpNfSq6slwZe01nI2Yyt10DOza60VXW8ugH9VSs0RkfxMxeCkatHjjQLwea216H9iZVoTM6+11soM2ZYB/6SUmiei31OBJdhau8DMt1ITic4opZazvijXTJl5TRiGb5l5x9iJE733PG8nEf2ZCZz0Ou26kHtNkLzciiWAmR1r7WsAu5Lq3iildhNRnHewhWBJDoLgCBE9TF501Pf9R0UaLwVmZrLWvhCYUmofEYnT5K5S4EQhhxLwkyKo7P8FeUMfwPOVeTgAAAAASUVORK5CYII=" />
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="features" id="features">
+        <div class="container">
+          <div class="features-wrap">
+            <h2 class="features__title">Почему <span class="features__tin-text">НАС</span> <br>выбирают?</h2>
+            <div class="features-block">
+              <p class="features-block__numb">1</p>
+              <p class="features-block__txt">
+                Наша компания является лидером на рынке производства малых архитектурных форм
+                из нержавеющей стали.</p>
+            </div>
+
+            <div class="features-block  features-block--color">
+              <p class="features-block__numb">2</p>
+              <p class="features-block__txt">
+                Дизайн-проект для металлических конструкций разрабатывается специалистами компании с учетом технических
+                параметров, архитектурного стиля здания и Ваших пожеланий.</p>
+            </div>
+
+            <div class="features-block">
+              <p class="features-block__numb">3</p>
+              <p class="features-block__txt">Установка и монтаж конструкций осуществляется в кратчайшие сроки, после ее
+                изготовления. </p>
+            </div>
+
+            <div class="features-block">
+              <p class="features-block__numb">4</p>
+              <p class="features-block__txt">Мы гарантируем монолитность наших изделий. Сборка поручней и перил
+                происходит
+                с помощью аргонно-дуговой сварки. Все сварные швы обрабатываются и полируются до блеска.</p>
+            </div>
+
+            <div class="features-block  features-block--color">
+              <p class="features-block__numb">5</p>
+              <p class="features-block__txt">Мы даем 3х летнюю гарантию н а все изделия, если монтаж и сборка
+                производились нагими специалистами.</p>
+            </div>
+
+            <div class="features-block">
+              <p class="features-block__numb">6</p>
+              <p class="features-block__txt">У нас всегда имеются готовые решения для входных групп, соответсвующие с
+                действующими архитектурно- правовыми нормативами. </p>
+            </div>
+
+            <div class="features-block features-block--color">
+              <p class="features-block__numb">7</p>
+              <p class="features-block__txt">Демократичные цены на все изделия и бесплатный монтаж.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="servises" id="servises">
+        <div class="container">
+          <h2 class="servises__title"><span class="servises__tin-text">НАШИ</span> услуги</h2>
+          <h3 class="servises__subtitle">производство и монтаж конструкций из нержавеющей стали, стекла и черных
+            металлов.
+          </h3>
+
+          <div class="servises-wrap">
+            <div class="servises-block">
+              <h4 class="servises-block__title">ограждения кровли, входных групп и лестничных маршей
+              </h4>
+              <p class="servises-block__text">Опорные устройства предназначены для инвалидов, в том числе инвалидов,
+                использующих для передвижения кресла-коляски. ... 5.3.1 Доступные для инвалидов лестницы на входе в
+                здания
+                и сооружения, а также внутри зданий и сооружений должны иметь по обеим сторонам и по всей длине
+                ограждения
+                с одиночными или парными поручнями, удовлетворяющими требованиям 5.1 и нижеследующим требованиям.</p>
+            </div>
+
+            <div class="servises-block">
+              <h4 class="servises-block__title">ограждения для инвалидов
+              </h4>
+              <p class="servises-block__text">Ограждение плоской кровли может быть выполнено достаточно быстро. Ко
+                второй
+                группе относятся кровли со скатом, к которым из-за особенностей конструкции предъявляют повышенные
+                требования, а монтаж ограждений на них выполняется в зависимости от подгруппы, к которой и относится
+                данный ограждающий элемент.</p>
+            </div>
+
+            <div class="servises-block">
+              <h4 class="servises-block__title">ограждения козырьков и заборов
+              </h4>
+              <p class="servises-block__text">Ограждение плоской кровли может быть выполнено достаточно быстро. Ко
+                второй
+                группе относятся кровли со скатом, к которым из-за особенностей конструкции предъявляют повышенные
+                требования, а монтаж ограждений на них выполняется в зависимости от подгруппы, к которой и относится
+                данный ограждающий элемент.</p>
+            </div>
+
+            <div class="servises-block">
+              <h4 class="servises-block__title">лестницы на металлическом каркасе
+              </h4>
+              <p class="servises-block__text">Металлический каркас лестницы это ее основа, на которую ложится вся
+                нагрузка, то, на чем держатся ступени и перила. Основные части любого каркаса это марши и промежуточные
+                элементы. Марш представляет собой прямолинейный ряд ступеней. Конструкция может состоять из одного
+                марша,
+                в этом случае ее так и называют - прямой марш. ... Итак, виды каркасов при заказе подразделяют на
+                следующие: 1. Закрытый каркас лестницы на второй этаж. Изготавливается из швеллера и уголка (это
+                стандартные профильные элементы). Предназначен под полную зашивку деревом или другим материалом.</p>
+            </div>
+          </div>
+
+          <a href="#calc" class="button servises__btn click">ЗАКАЗАТЬ</a>
+
+        </div>
+
+      </section>
+
+      <section class="calc" id="calc">
+        <div class="container">
+          <div class="calc-wrap">
+            <div class="calc-desc-block">
+              <h2 class="calc-desc-block__title">Рассчитать<br>
+                <span class="calc-desc-block__tin-text">СТОИМОСТЬ</span></h2>
+
+              <p class="calc-desc-block__txt">Напишите нам о вашем проекте и наш специалист свяжется с Вами
+                проконсультирует и подберет для Вас готовые решения.
+                Так же мы можем разработать конструкции строго индивидуально под Ваш дизайн проект. </p>
+            </div>
+
+            <div class="calc-form-block">
+              <form action="#" class="main-form" id="submit-btn">
+                <div class="main-form-block">
+                  <label for="name" class="main-form__label">Ваше имя</label>
+                  <input type="text" id="name" class="main-form__input" required>
+                </div>
+
+                <div class="main-form-block">
+                  <label for="tel" class="main-form__label">Ваш телефон</label>
+                  <input type="tel" id="tel" class="main-form__input" required>
+                </div>
+
+                <div class="main-form-block">
+                  <label for="e-mail" class="main-form__label">Ваш e-mail</label>
+                  <input type="email" id="e-mail" class="main-form__input">
+                </div>
+
+                <div class="main-form-block">
+                  <label for="select" class="main-form__label">Выберите услугу</label>
+                  <div class="custom-select">
+                    <select name="select" id="select" class="main-form__input main-form__select">
+                      <option value="" hidden>ограждение кровли</option>
+                      <option value="1">ограждение</option>
+                      <option value="2">ограждение козырьков</option>
+                    </select>
+                  </div>
+
+                </div>
+
+                <div class="main-form-block main-form-textarea">
+                  <label for="textarea" class="main-form__label">Ваши комментарии к
+                    заказу</label>
+                  <textarea name="textarea" id="textarea" cols="30" rows="10" class="main-form__area"></textarea>
+                </div>
+              </form>
+            </div>
+
+            <div class="calc-phone">
+              <p class="calc-phone__text">Телефоны для связи с нашим специалистом:
+                <span class="calc-phone__tel">+7 (961) 770-66-61</span>
+              </p>
+
+              <div class="calc-form__btn">
+                <input type="submit" value="ЗАКАЗАТЬ" class="button" form="submit-btn">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="enter-groups" id="groups">
+        <div class="container">
+          <div class="enter-wrap">
+            <div class="slider enter-slider">
+              <div class="slider-item">
+                <img src="/img/4sec/1-slide-4.png" alt="e-slide-1" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/4sec/2-slide-4.png" alt="e-slide-2" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/4sec/3-slide-4.png" alt="e-slide-3" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/4sec/4-slide-4.png" alt="e-slide-4" class="slider-item__img">
+              </div>
+              <div class="slider-item">
+                <img src="/img/4sec/5-slide-4.png" alt="e-slide-5" class="slider-item__img">
+              </div>
+            </div>
+
+            <div class="enter-desc">
+              <h2 class="enter-desc__title">Производим<br>
+                <span class="enter-desc__tin-text">ВХОДНЫЕ ГРУППЫ</span>
+              </h2>
+
+              <h3 class="enter-desc__subtitle">из нержавеющей стали, стекла и черных металлов.</h3>
+
+              <p class="enter-desc__text">Входная группа — это совокупность архитектурных и инженерных элементов на
+                входе
+                в здание: тамбур, крыльцо, пандус, навес, колонны, лестницы, ограждения для инвалидов.. Они выполняют
+                декоративную и защитную функции. Комплекс защищает от ветра, атмосферных осадков, взглядов посторонних.
+              </p>
+
+              <p class="enter-desc__text">Входные группы из металла сочетают повышенную прочность со сравнительно
+                небольшой массой. Рассчитаны на продолжительную эксплуатацию, металл отлично переносит температурные
+                перепады и не подвержен деформации. Все конструкции рассчитаны на интенсивную эксплуатацию, подходит для
+                коммерческих объектов с высокой проходимостью и частные строения.</p>
+
+              <div class="enter-desc__btn">
+                <a href="#calc" class="button click">ЗАКАЗАТЬ</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="work" id="work">
+        <div class="container">
+          <h2 class="work__title">Наши <span class="work__tin-text">РАБОТЫ</span></h2>
+        </div>
+        <div class="work-slider">
+          <div class="work-slider-item"><img src="/img/work/w-slide-1.png" alt="w-slide-1"></div>
+          <div class="work-slider-item"><img src="/img/work/w-slide-2.png" alt="w-slide-2"></div>
+          <div class="work-slider-item"><img src="/img/work/w-slide-3.png" alt="w-slide-3"></div>
+          <div class="work-slider-item"><img src="/img/work/w-slide-4.png" alt="w-slide-4"></div>
+          <div class="work-slider-item"><img src="/img/work/w-slide-1.png" alt="w-slide-1"></div>
+          <div class="work-slider-item"><img src="/img/work/w-slide-3.png" alt="w-slide-3"></div>
+          <div class="work-slider-item"><img src="/img/work/w-slide-4.png" alt="w-slide-4"></div>
+        </div>
+      </section>
+
+      <section class="operate">
+        <div class="container">
+          <h2 class="operate__title">Как мы <span class="operate__tin-text">РАБОТАЕМ</span></h2>
+
+          <div class="operate-wrap">
+            <div class="operate-row">
+              <div class="operate-block pull-t operate-block-count">
+                <p class="operate-block__txt">Вы делаете заказ</p>
+                <a href="#calc" class="button operate-block__btn click">ЗАКАЗАТЬ</a>
+              </div>
+
+              <div class="operate-block pull-t left-3 operate-block-count">
+                <p class="operate-block__txt">Вы согласовываете смету проекта и заключаете договор,
+                  вноcите 50% предоплаты</p>
+              </div>
+
+              <div class="operate-block pull-t left-5 operate-block-count">
+                <p class="operate-block__txt">Наша бригада монтажников
+                  выезжает на ваш обьект и монтирует конструкции по проекту</p>
+              </div>
+            </div>
+
+            <div class="operate-row operate-row-count">
+              <div class="operate-block left-2">
+                <p class="operate-block__txt">Наш технический специалист
+                  готовит предварительный проект
+                  для согласования</p>
+              </div>
+
+              <div class="operate-block left-4">
+                <p class="operate-block__txt">Наше производство изготаливает конструкции из нержавеющей стали по вашему
+                  проекту </p>
+              </div>
+
+              <div class="operate-block left-6">
+                <p class="operate-block__txt">Вы принимаете проект, благодарите нас и оплачиваете заключительные 50%</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="map" id="map">
+        <div class="map-block">
+          <div class="block-point">
+            <h4 class="block-point__title">КОНТАКТЫ</h4>
+            <div class="block-point-wrap">
+              <img src="/img/map/loc.png" alt="loc" class="block-point__img">
+              <p class="block-point__text"> 623103 Свердловская область, ул. Крылова, д.1/66. </p>
+            </div>
+
+            <div class="block-point-wrap">
+              <img src="/img/map/man.png" alt="man" class="block-point__img">
+              <p class="block-point__text"> E-mail: som2040@yandex.ru </p>
+            </div>
+
+            <div class="block-point-wrap">
+              <img src="/img/map/phone.png" alt="phone" class="block-point__img">
+              <p class="block-point__tel"> +7 (961) 770-66-61 <br> +7 (982) 687-19-15 </p>
+            </div>
+
+
+
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2179.1522533385264!2d59.88323991613136!3d56.89477751080469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c3d4cbdf1235f7%3A0xd463958fe05785bf!2z0YPQuy4g0JrRgNGL0LvQvtCy0LAsIDEsINCf0LXRgNCy0L7Rg9GA0LDQu9GM0YHQuiwg0KHQstC10YDQtNC70L7QstGB0LrQsNGPINC-0LHQuy4sIDYyMzEwMw!5e0!3m2!1sru!2sru!4v1585148961957!5m2!1sru!2sru"
+            width="800" height="600" aria-hidden="false" tabindex="0" class="map-block__frame"></iframe>
+
+
+        </div>
+
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-wrap-name">
+            <img src="/img/header/logo.png" alt="logo" class="footer-wrap__logo" width="46" height="61">
+            <h2 class="footer-wrap__title">Металл Строй Монтаж</h2>
+          </div>
+          <a href="#" class="footer-wrap__link footer-wrap__text">реквизиты</a>
+          <a href="#" class="footer-wrap__link footer-wrap__text">пользовательское соглашение</a>
+          <p class="footer-wrap__text">© ООО «Рога и копыта», 2020</p>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+
+  <div id="scrollToTop" class="scrollToTop-wrapper" style="display: block;">
+    <div class="scrollToTop-icon">
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
