@@ -1,33 +1,32 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Qanelas-Regular";
-  src: url("/fonts/Qanelas-Regular.eot") format("embedded-opentype"), url("/fonts/Qanelas-Regular.woff") format("woff"), url("/fonts/Qanelas-Regular.ttf") format("truetype");
+  src: url("fonts/Qanelas-Regular.eot") format("embedded-opentype"), url("fonts/Qanelas-Regular.woff") format("woff"), url("fonts/Qanelas-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Qanelas-Bold";
-  src: url("/fonts/Qanelas-Bold.eot") format("embedded-opentype"), url("/fonts/Qanelas-Bold.woff") format("woff"), url("/fonts/Qanelas-Bold.ttf") format("truetype");
+  src: url("fonts/Qanelas-Bold.eot") format("embedded-opentype"), url("fonts/Qanelas-Bold.woff") format("woff"), url("fonts/Qanelas-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Qanelas-Light";
-  src: url("/fonts/Qanelas-Light.eot") format("embedded-opentype"), url("/fonts/Qanelas-Light.woff") format("woff"), url("/fonts/Qanelas-Light.ttf") format("truetype");
+  src: url("fonts/Qanelas-Light.eot") format("embedded-opentype"), url("fonts/Qanelas-Light.woff") format("woff"), url("fonts/Qanelas-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "MyriadPro";
-  src: url("/fonts/MyriadPro-Regular.eot") format("embedded-opentype"), url("/fonts/MyriadPro-Regular.woff") format("woff"), url("/fonts/MyriadPro-Regular.ttf") format("truetype");
+  src: url("fonts/MyriadPro-Regular.eot") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 * {
   margin: 0;
   padding: 0;
@@ -184,7 +183,7 @@ h5 {
 }
 
 .header-main {
-  background-image: url(/img/header/header-bg.png);
+  background-image: url(img/header/header-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -576,7 +575,7 @@ h5 {
 
 .enter-groups {
   padding: 80px 0;
-  background-image: url(/img/4sec/4-sec-bg.png);
+  background-image: url(img/4sec/4-sec-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -714,7 +713,7 @@ h5 {
 
 .operate-wrap {
   position: relative;
-  background-image: url(/img/line.png);
+  background-image: url(img/line.png);
   background-repeat: no-repeat;
   background-position: 50% 40%;
   background-size: 85%;
