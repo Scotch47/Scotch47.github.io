@@ -934,7 +934,7 @@ h5 {
   border: 1px solid #132b3b;
   background-color: #ffba00;
   z-index: 2;
-  background-image: url(/img/up.svg);
+  background-image: url(../img/up.svg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
