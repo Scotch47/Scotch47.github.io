@@ -10,6 +10,7 @@ a {
 
 p {
   font-weight: 400;
+  font-size: 14px;
 }
 
 
@@ -316,23 +317,18 @@ body {
   width: 33.3%;
   color: #fff;
   align-self: flex-start;
-
-
-
 }
 
 .modal-content-about__list {
-  padding: 20px;
+  padding: 10px;
   list-style-type: square;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 
-.modal_link {
+.modal_link, .modal-content__link {
   color: rgb(248, 132, 0);
 }
-
-
 
 
 .modal-content__text {
@@ -345,8 +341,19 @@ body {
   padding-top: 10px;
   list-style: square;
   line-height: 1.5;
+}
+
+.modal-content-about__txt{
+  margin-top: 10px;
+  line-height: 1.5;
 
 }
+.modal-content-about__txt span{
+  color: rgb(248, 132, 0);
+  font-size: 16px;
+
+}
+
 
 .close {
   position: absolute;
@@ -535,18 +542,10 @@ body {
   }
 
 
-  .modal-content-about__txt {
+  .modal-content-about__txt, .modal-content-about__list, .modal-content-skills__list {
+
     font-size: 14px;
   }
-
-  .modal-content-about__list {
-    font-size: 14px;
-  }
-
-  .modal-content-skills__list {
-    font-size: 14px;
-  }
-
 
 }
 
