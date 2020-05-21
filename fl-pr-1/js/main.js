@@ -49,6 +49,13 @@ $(document).ready(function () {
   });
 
 
+  
+$(".nav__link").click(function(e) {
+  e.preventDefault();
+  $(".nav__link").removeClass('nav__link--active');
+  $(this).addClass('nav__link--active');
+})
+
   // show
   var windowHeight = $(window).height();
   $(window).scroll(function () {
