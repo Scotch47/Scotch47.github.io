@@ -17,7 +17,7 @@ a {
 }
 
 .two {
-  padding: 15px 0 40px 0;
+  padding: 15px 0 100px 0;
   background-color: #F6F7FD;
 }
 
@@ -522,6 +522,9 @@ a {
 }
 
 @media (max-width: 340px) {
+  .two {
+  padding-bottom: 0; 
+}
   .right-block-info {
     margin-top: 28px;
   }
