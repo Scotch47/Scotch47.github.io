@@ -1,0 +1,334 @@
+$title-font: Exo;
+$content-font: 'Trebuchet MS';
+$disabled: #B3B3B3;
+$hover: #2EA8E6;
+$active: #D91667;
+$active-hover: #E52E7A;
+
+
+@font-face {
+  font-family: $title-font;
+  src: url(/fonts/Exo2.0-Thin.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-display: swap;
+}
+
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+.product {
+  background: #2c2c2c url(/img/bg.png) no-repeat;
+  background-size: cover;
+  padding: 45px 0 65px;
+  min-height: 100vh;
+
+  &-title {
+    font-family: $title-font;
+    font-weight: 250;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px #000000;
+    margin-bottom: 25px;
+  }
+
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .line {
+    position: absolute;
+    width: 75px;
+    height: 6px;
+    left: -15px;
+    top: 20px;
+    z-index: 1000;
+    background-color: #1698D9;
+    transform: rotate(-45deg);
+    border-radius: 20px;
+    z-index: 1000;
+    transition: all 0.4s ease-in-out;
+  }
+
+  &-item {
+    max-width: 320px;
+    min-height: 480px;
+    padding: 20px 50px;
+    background: url(/img/cat.png) no-repeat, #fff;
+    border: 5px solid #1698D9;
+    border-radius: 15px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+    margin: 0 15px 70px 15px;
+
+
+
+    &::after {
+      content: '';
+      z-index: 22;
+      width: 37px;
+      height: 36px;
+      background: url(/img/bg.png) no-repeat;
+      position: absolute;
+      transform: rotate(0deg);
+      top: -5px;
+      left: -5px;
+      border-top: 5px solid #1698D9;
+      border-left: 5px solid #1698D9;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 105px;
+      transition: all 0.4s ease-in-out;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      width: 76px;
+      height: 7px;
+      left: -19px;
+      top: 15px;
+      z-index: 1000;
+      background: #0c0c0c;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      border-radius: 50px;
+      background: url(/img/bg.png) no-repeat;
+    }
+
+    &:hover:not(.active):not(.disabled)::after,
+    &:hover:not(.active):not(.disabled) {
+      border-color: $hover;
+    }
+
+    &:hover:not(.active):not(.disabled) .line {
+      background-color: $hover;
+    }
+
+
+
+    &:hover:not(.active):not(.disabled) .product-item__weight-wrap {
+      background-color: $hover;
+      transition: all 0.4s ease-in-out;
+    }
+
+
+    &__desc {
+      font-family: $content-font;
+      font-size: 16px;
+      line-height: 20px;
+      color: #666666;
+    }
+
+    &__desc--select {
+      font-family: $content-font;
+      font-size: 16px;
+      line-height: 20px;
+      color: $active-hover;
+      display: none;
+    }
+
+
+
+
+
+    &__name {
+      font-family: $content-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+      color: #000000;
+
+
+    }
+
+    &__name-desc {
+      font-family: $content-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      color: #000000;
+      margin-bottom: 15px;
+    }
+
+    &__special {
+      font-family: $content-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #666666;
+    }
+
+
+
+    &__weight-wrap {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #1698D9;
+      transition: all 0.4s ease-in-out;
+      align-self: flex-end;
+      margin-top: auto;
+      position: relative;
+      left: 25px;
+    }
+
+
+    &__weight {
+      font-family: $content-font;
+      font-size: 42px;
+      line-height: 22px;
+      text-align: center;
+      color: #FFFFFF;
+      user-select: none;
+      padding-top: 22px;
+
+      span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+    }
+
+    &__link {
+      position: absolute;
+      bottom: -35px;
+      font-family: $content-font;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+      text-align: center;
+      width: 100%;
+      pointer-events: none;
+      font-size: 13px;
+      line-height: 15px;
+
+
+      span {
+        color: #1698D9;
+        text-decoration: none;
+        border-bottom: 1px dashed #1698D9;
+        cursor: pointer;
+        pointer-events: all;
+      }
+    }
+
+    &__link--select {
+      font-family: $content-font;
+      display: none;
+      pointer-events: none;
+      font-size: 13px;
+      line-height: 15px;
+      text-align: center;
+      color: #FFFFFF;
+      position: absolute;
+      bottom: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 105%;
+
+    }
+
+  }
+
+}
+
+.product-item.active,
+.product-item.active::after {
+  border-color: $active;
+  transition: all 0.4s ease-in-out;
+}
+
+.product-item.active .line,
+.product-item.active .product-item__weight-wrap {
+  background-color: $active;
+  transition: all 0.4s ease-in-out;
+}
+
+.product-item.disabled,
+.product-item.disabled::after {
+  border-color: $disabled;
+  user-select: none;
+  cursor: not-allowed;
+}
+
+.product-item.disabled .product-item__weight-wrap,
+.product-item.disabled .line {
+  background: $disabled;
+}
+
+
+
+.product-item.active:hover,
+.product-item.active:hover::after {
+  border-color: $active-hover;
+  transition: all 0.4s ease-in-out;
+}
+
+.product-item.active:hover .product-item__weight-wrap,
+.product-item.active:hover .line {
+  background: $active-hover;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.product-item__link-disabled {
+  font-family: $content-font;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFF66;
+}
+
+.product-item.active:hover .product-item__desc,
+.product-item.active .product-item__link {
+  display: none;
+}
+
+.product-item.active:hover .product-item__desc--select,
+.product-item.active .product-item__link--select {
+  display: block;
+}
+
+@media(max-width: 1190px) {
+  .product-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 320px) {
+  .product-item {
+    padding: 20px 40px;
+  }
+}
