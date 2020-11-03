@@ -8,7 +8,7 @@ $active-hover: #E52E7A;
 
 @font-face {
   font-family: $title-font;
-  src: url(/fonts/Exo2.0-Thin.otf);
+  src: url(./fonts/Exo2.0-Thin.otf);
   font-weight: normal;
   font-style: normal;
 }
@@ -35,7 +35,7 @@ body {
 
 
 .product {
-  background: #2c2c2c url(/img/bg.png) no-repeat;
+  background: #2c2c2c url(./img/bg.png) no-repeat;
   background-size: cover;
   padding: 45px 0 65px;
   min-height: 100vh;
@@ -74,7 +74,7 @@ body {
     max-width: 320px;
     min-height: 480px;
     padding: 20px 50px;
-    background: url(/img/cat.png) no-repeat, #fff;
+    background: url(./img/cat.png) no-repeat, #fff;
     border: 5px solid #1698D9;
     border-radius: 15px;
     background-size: cover;
@@ -91,7 +91,7 @@ body {
       z-index: 22;
       width: 37px;
       height: 36px;
-      background: url(/img/bg.png) no-repeat;
+      background: url(./img/bg.png) no-repeat;
       position: absolute;
       transform: rotate(0deg);
       top: -5px;
@@ -115,7 +115,7 @@ body {
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       border-radius: 50px;
-      background: url(/img/bg.png) no-repeat;
+      background: url(./img/bg.png) no-repeat;
     }
 
     &:hover:not(.active):not(.disabled)::after,
