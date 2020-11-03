@@ -6,9 +6,24 @@ $active: #D91667;
 $active-hover: #E52E7A;
 
 
+
+@font-face {
+  font-family: $content-font;
+  src: url('./fonts/TrebuchetMS.eot');
+  src: local('Trebuchet MS'), local('TrebuchetMS'),
+    url('./fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/TrebuchetMS.woff') format('woff'),
+    url('./fonts/TrebuchetMS.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: $title-font;
-  src: url(./fonts/Exo2.0-Thin.otf);
+  src: url('./fonts/Exo2.0-Thin.otf');
+  src: url('./fonts/Exo2_0Thin.eot') format('embedded-opentype');
+  src: url('./fonts/Exo2_0Thin.woff') format('woff'),
+    url('./fonts/Exo2_0Thin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,9 +37,8 @@ $active-hover: #E52E7A;
 }
 
 body {
-  height: 100%;
-  font-family: Arial, sans-serif;
-
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -62,17 +76,17 @@ body {
     height: 6px;
     left: -15px;
     top: 20px;
-    z-index: 1000;
+    z-index: 3;
     background-color: #1698D9;
     transform: rotate(-45deg);
     border-radius: 20px;
-    z-index: 1000;
     transition: all 0.4s ease-in-out;
   }
 
   &-item {
     max-width: 320px;
     min-height: 480px;
+    width: 100%;
     padding: 20px 50px;
     background: url(./img/cat.png) no-repeat, #fff;
     border: 5px solid #1698D9;
@@ -83,23 +97,24 @@ body {
     flex-direction: column;
     transition: all 0.4s ease-in-out;
     margin: 0 15px 70px 15px;
+    font-family: $content-font;
+
 
 
 
     &::after {
       content: '';
-      z-index: 22;
+      z-index: 2;
       width: 37px;
       height: 36px;
       background: url(./img/bg.png) no-repeat;
       position: absolute;
-      transform: rotate(0deg);
       top: -5px;
       left: -5px;
       border-top: 5px solid #1698D9;
       border-left: 5px solid #1698D9;
       border-top-left-radius: 25px;
-      border-bottom-right-radius: 105px;
+      border-bottom-right-radius: 70px;
       transition: all 0.4s ease-in-out;
     }
 
@@ -110,7 +125,7 @@ body {
       height: 7px;
       left: -19px;
       top: 15px;
-      z-index: 1000;
+      z-index: 4;
       background: #0c0c0c;
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
@@ -123,50 +138,33 @@ body {
       border-color: $hover;
     }
 
-    &:hover:not(.active):not(.disabled) .line {
-      background-color: $hover;
-    }
-
-
-
+    &:hover:not(.active):not(.disabled) .line,
     &:hover:not(.active):not(.disabled) .product-item__weight-wrap {
       background-color: $hover;
-      transition: all 0.4s ease-in-out;
     }
 
-
     &__desc {
-      font-family: $content-font;
       font-size: 16px;
       line-height: 20px;
       color: #666666;
     }
 
     &__desc--select {
-      font-family: $content-font;
       font-size: 16px;
       line-height: 20px;
       color: $active-hover;
       display: none;
     }
 
-
-
-
-
     &__name {
-      font-family: $content-font;
       font-style: normal;
       font-weight: bold;
       font-size: 48px;
       line-height: 56px;
       color: #000000;
-
-
     }
 
     &__name-desc {
-      font-family: $content-font;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
@@ -176,15 +174,12 @@ body {
     }
 
     &__special {
-      font-family: $content-font;
       font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 16px;
       color: #666666;
     }
-
-
 
     &__weight-wrap {
       width: 80px;
@@ -200,7 +195,6 @@ body {
 
 
     &__weight {
-      font-family: $content-font;
       font-size: 42px;
       line-height: 22px;
       text-align: center;
@@ -216,13 +210,11 @@ body {
         text-align: center;
         color: #FFFFFF;
       }
-
     }
 
     &__link {
       position: absolute;
       bottom: -35px;
-      font-family: $content-font;
       left: 50%;
       transform: translateX(-50%);
       color: #fff;
@@ -231,7 +223,6 @@ body {
       pointer-events: none;
       font-size: 13px;
       line-height: 15px;
-
 
       span {
         color: #1698D9;
@@ -243,7 +234,6 @@ body {
     }
 
     &__link--select {
-      font-family: $content-font;
       display: none;
       pointer-events: none;
       font-size: 13px;
@@ -255,7 +245,6 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 105%;
-
     }
 
   }
@@ -302,7 +291,6 @@ body {
 
 
 .product-item__link-disabled {
-  font-family: $content-font;
   font-size: 13px;
   line-height: 15px;
   text-align: center;
