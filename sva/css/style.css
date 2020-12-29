@@ -106,7 +106,6 @@ h6 {
   font-family: "Lato", sans-serif;
 }
 
-
 textarea {
   overflow: hidden;
 }
@@ -750,7 +749,6 @@ img {
 /* .sticky-header .main-menu .navigation > li > a {
   color: #444444 !important;
 } */
-
 
 .sticky-header .main-menu .navigation > li:hover > a,
 .sticky-header .main-menu .navigation > li.current > a {
@@ -1572,7 +1570,7 @@ img {
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 591px;
+  min-height: 790px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1618,11 +1616,10 @@ img {
 
 .map-wrap {
   position: relative;
-  height: 450px;
+  min-height: 450px;
   border: 12px solid #ffffff;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 }
-
 
 .map-data {
   text-align: center;
@@ -1992,7 +1989,7 @@ img {
 
 ***/
 
-.box{
+.box {
   width: 100px;
   height: 100px;
   background: tomato;
@@ -2001,21 +1998,20 @@ img {
   padding: 5px;
 }
 
-.doc-info{
+.doc-info {
   padding: 40px 0;
 }
 
-.doc-info-list li{
-list-style: disc;
+.doc-info-list li {
+  list-style: disc;
 }
 
-.doc-info-row{
+.doc-info-row {
   margin-bottom: 20px;
 }
 
-.inspector-section{
+.inspector-section {
   padding: 40px 0px 40px;
-
 }
 
 .clients-section {
@@ -2080,8 +2076,8 @@ list-style: disc;
 
 .main-footer {
   position: relative;
-  padding: 80px 0px 0px;
   background-color: #232323;
+  padding: 0 0 20px 0;
 }
 
 .main-footer.alternate {
@@ -2775,7 +2771,13 @@ list-style: disc;
 .contact-form-section {
   position: relative;
   padding: 85px 0px 88px;
-  background: url(../images/background/7.jpg) left top repeat-x;
+  background: url(/images/background/3.jpg) left top repeat-x;
+}
+
+.contact-form-wrap {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 /*Contact Form*/
